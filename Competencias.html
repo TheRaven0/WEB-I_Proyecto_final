@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Competencia pasada</title>
+		<link rel="stylesheet" type="text/css" href="Competencias.css">
+		<link rel="icon" type="image/png" href="imagenes/icono.png" />
+    </head>
+    <script>
+        function mostrarPestana(n){
+		var pestanas = document.getElementsByClassName("pestana");
+		var cabecera = document.getElementsByClassName("cabecera");
+		for(i = 0; i<pestanas.length; i++){
+			if(pestanas[i].className.includes("p-activa")){
+				pestanas[i].className = pestanas[i].className.replace("p-activa", "");
+				cabecera[i].className = cabecera[i].className.replace("c-activa", "");
+				break;
+			}
+		}
+		pestanas[n].className += " p-activa";
+		cabecera[n].className += " c-activa";
+	}
+    </script>
+    <body>
+        <div class="barra_superior">
+			<a href="index.html"><img src="imagenes/logo.png" border="0" width="100" height="100" ></a>
+			<a href="index.html"><font color="#EEEEEE" size="10" face="Helvetica Neue">  Project_Nereus</font></a>
+		</div>
+
+		<div class="navbar">
+			<table>
+				<tr>
+					<td><a href="Competencias.html">Competencias</a></td>
+					<td><a href="records.html">Récords</a></td>
+					<td><a href="acerca-de.html">Acerca de</a></td>
+				</tr>
+			</table>
+		</div>
+
+        <h1>Competencias</h1>
+        <div class="contenedor">
+			<a href="#" class="cabecera c-activa" onclick="mostrarPestana(0);">Competencias pasadas</a>
+			<div class="pestana p-activa">
+				
+						<a href="Competencia_pasada.html">
+							<p> competencia 1</p>
+							<div class=competencia>
+								<p>18/11/18</p>
+							</div>
+							<div class=competencia2>
+									<p>GDL, Mexico</p>
+							</div>
+						</a>
+						
+						<a href="Competencia_pasada.html">
+							<p> competencia 2</p>
+							<div class=competencia>
+								<p>18/11/18</p>
+							</div>
+							<div class=competencia2>
+									<p>GDL, Mexico</p>
+							</div>
+						</a>
+						
+						<a href="Competencia_pasada.html">
+								<p> competencia 3</p>
+								<div class=competencia>
+									<p>18/11/18</p>
+								</div>
+								<div class=competencia2>
+										<p>GDL, Mexico</p>
+								</div>
+							</a>
+							
+						<a href="Competencia_pasada.html">
+								<p> competencia 4</p>
+								<div class=competencia>
+									<p>18/11/18</p>
+								</div>
+								<div class=competencia2>
+										<p>GDL, Mexico</p>
+								</div>
+							</a>
+							
+                
+			</div>
+			<a href="#" class="cabecera" onclick="mostrarPestana(1);">Competencias en curso</a>
+			<div class="pestana">
+					<a href="Competencia_en_curso.html">
+							<p> competencia 1</p>
+							<div class=competencia>
+								<p>#1 girls 11-13 50 freestyle/heat 1</p>
+							</div>
+							<div class=competencia2>
+									<p>GDL, Mexico</p>
+							</div>
+						</a>
+						
+						<a href="Competencia_en_curso.html">
+							<p> competencia 2</p>
+							<div class=competencia>
+									<p>#1 girls 11-13 50 freestyle/heat 1</p>
+							</div>
+							<div class=competencia2>
+									<p>GDL, Mexico</p>
+							</div>
+						</a>
+						
+						<a href="Competencia_en_curso.html">
+								<p> competencia 3</p>
+								<div class=competencia>
+										<p>#1 girls 11-13 50 freestyle/heat 1</p>
+								</div>
+								<div class=competencia2>
+										<p>GDL, Mexico</p>
+								</div>
+							</a>
+							
+						<a href="Competencia_en_curso.html">
+								<p> competencia 4</p>
+								<div class=competencia>
+										<p>#1 girls 11-13 50 freestyle/heat 1</p>
+								</div>
+								<div class=competencia2>
+										<p>GDL, Mexico</p>
+								</div>
+							</a>
+							
+			</div>
+			<a href="#" class="cabecera" onclick="mostrarPestana(2);">Proximas competencias</a>
+			<div class="pestana">
+                    <a href="Proxima_competencia.html">
+							<p> competencia 1</p>
+							<div class=competencia>
+								<p>18/11/18</p>
+							</div>
+							<div class=competencia2>
+									<p>GDL, Mexico</p>
+							</div>
+						</a>
+						
+						<a href="Proxima_competencia.html">
+							<p> competencia 2</p>
+							<div class=competencia>
+								<p>18/11/18</p>
+							</div>
+							<div class=competencia2>
+									<p>GDL, Mexico</p>
+							</div>
+						</a>
+						
+						<a href="Proxima_competencia.html">
+								<p> competencia 3</p>
+								<div class=competencia>
+									<p>18/11/18</p>
+								</div>
+								<div class=competencia2>
+										<p>GDL, Mexico</p>
+								</div>
+							</a>
+							
+						<a href="Proxima_competencia.html">
+								<p> competencia 4</p>
+								<div class=competencia>
+									<p>18/11/18</p>
+								</div>
+								<div class=competencia2>
+										<p>GDL, Mexico</p>
+								</div>
+							</a>
+							
+			</div>
+			
+		</div>
+    </body>
+</html>

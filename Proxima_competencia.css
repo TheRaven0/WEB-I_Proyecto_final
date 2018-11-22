@@ -1,0 +1,31 @@
+.barra_superior {
+    float: left;
+    border-radius: 10px;
+	padding: 18px;
+	width: 100%;
+	background-color: #1565C0;
+}
+
+.navbar table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.navbar a{
+    background-color: #1565C0;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    font: bold 20px Arial;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover{
+    background-color: darkblue;
+}
+
+.contenedor{
+    margin-left: 5%;
+}

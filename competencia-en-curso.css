@@ -1,0 +1,102 @@
+.barra_superior {
+    float: left;
+    border-radius: 10px;
+	padding: 18px;
+	width: 97%;
+	background-color: #1565C0;
+}
+
+.navbar table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.navbar a{
+    background-color: #1565C0;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    font: bold 20px Arial;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: darkblue;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecera {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid;
+    position: relative;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transform: translateY(2px);
+    z-index: 2;
+}
+
+.pestana {
+    position: absolute;
+    border: 2px solid;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.p-activa {
+    visibility: visible;
+    opacity: 1;
+}
+
+.c-activa {
+    border-bottom-color: white;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    width: 200px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrado {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 75%;
+}
+
+th {
+    background-color: #B0BEC5;
+}
