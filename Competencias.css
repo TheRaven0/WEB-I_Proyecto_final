@@ -3,7 +3,7 @@
     border-radius: 10px;
 	padding: 18px;
 	width: 97%;
-	background-color: #1565C0;
+    background-color: #1565C0;
 }
 
 .navbar table {
@@ -59,7 +59,7 @@
     border-bottom-color: white;
 }
 
-p{
+img{
     float: left;
 }
 
@@ -75,4 +75,11 @@ button{
 .competencia2{
     position: relative;
     margin-left: 90%;
+}
+
+.titulo{
+    font-family: Helvetica;
+    font-size: 35px;
+    color: #EEEEEE;
+
 }
