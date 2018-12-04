@@ -27,6 +27,8 @@
 .centrado{
   margin-left: auto;
   margin-right: auto;
+  border: 1;
+  background-color: #eeeeee;
 }
 
 .barra_superior {
@@ -79,3 +81,14 @@ a:link
 { 
 text-decoration:none; 
 } 
+
+.tabla{
+    background-color: #B0BEC5;
+}
+
+.titulo{
+    font-family: Helvetica;
+    font-size: 35px;
+    color: #EEEEEE;
+
+}
