@@ -29,3 +29,15 @@
 .contenedor{
     margin-left: 5%;
 }
+
+img{
+    float: left;
+    margin-right: 10px;
+}
+
+.titulo{
+    font-family: Helvetica;
+    font-size: 35px;
+    color: #EEEEEE;
+
+}
