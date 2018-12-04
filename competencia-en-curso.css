@@ -8,7 +8,7 @@
 
 .navbar table {
     table-layout: fixed;
-    width: 100%;
+    width: 97%;
 }
 
 .navbar a{
@@ -80,7 +80,7 @@
 }
 
 .panel {
-    width: 200px;
+    width: 100%;
     background-color: white;
     display: none;
     overflow: hidden;
@@ -99,4 +99,8 @@ table {
 
 th {
     background-color: #B0BEC5;
+}
+
+a:link {
+    text-decoration: none;
 }

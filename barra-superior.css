@@ -1,0 +1,16 @@
+.barra_superior {
+    float: left;
+    border-radius: 10px;
+	padding: 18px;
+	width: 97%;
+	background-color: #1565C0;
+}
+
+.barra_superior h1 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.barra_superior img{
+    float:left;
+}
