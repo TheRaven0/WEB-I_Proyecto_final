@@ -1,6 +1,6 @@
 .navbar table {
     table-layout: fixed;
-    width: 97%;
+    width: 100%;
 }
 
 .navbar a{
@@ -19,7 +19,8 @@
 }
 
 .sidenav {
-    height: 150%;
+    height: auto;
+    overflow: hidden;
     width: 14%;
     position: absolute;
     left: 1%;
@@ -53,7 +54,8 @@
 }
 
 .main div {
-    height: 250px;
+    height: auto;
+    overflow: hidden;
     margin-bottom: 1%;
     border: 2px solid;
     border-radius: 5px;
