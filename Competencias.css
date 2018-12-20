@@ -67,19 +67,19 @@ button{
     width: 100%;
 }
 
-.competencia{
-    position: relative;
-    margin-left: 45%;
-}
-
-.competencia2{
-    position: relative;
-    margin-left: 90%;
-}
-
 .titulo{
     font-family: Helvetica;
     font-size: 35px;
     color: #EEEEEE;
 
+}
+
+.lista li {
+    display:inline;
+    padding-right:40%;
+}
+
+.lista2 li {
+    display:inline;
+    padding-right:33%;
 }

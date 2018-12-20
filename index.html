@@ -1,5 +1,12 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="es">
+<script>
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    if(isAndroid) {
+	window.location = 'mobile/index.html';
+}
+</script>
 <head>
     <meta charset="utf-8" />
     
